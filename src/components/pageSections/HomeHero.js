@@ -2,7 +2,7 @@ import React from 'react'
 import Swiper from 'react-id-swiper'
 import 'react-id-swiper/src/styles/scss/swiper.scss'
 
-const Hero = () => (
+const HomeHero = () => (
   <section className="hero hero-home">
     <Swiper
       navigation={{
@@ -22,4 +22,4 @@ const Hero = () => (
   </section>
 )
 
-export default Hero
+export default HomeHero

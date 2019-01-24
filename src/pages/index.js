@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Hero from '../components/hero'
+import HomeHero from '../components/pageSections/HomeHero'
 import InfoBoxes from '../components/pageSections/InfoBoxes'
 import IntroSection from '../components/pageSections/IntroSection'
 import TourSection from '../components/pageSections/TourSection'
@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-    <Hero />
+    <HomeHero />
     <InfoBoxes />
     <IntroSection />
     <TourSection />

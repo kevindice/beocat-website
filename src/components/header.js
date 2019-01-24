@@ -172,9 +172,9 @@ const Header = ({ siteTitle }) => (
               </a>
             </div>
             <div className="nav-item">
-              <a href="staff.html" className="nav-link">
+              <Link to="/staff" className="nav-link">
                 Staff{' '}
-              </a>
+              </Link>
             </div>
             <div className="list-inline-item dropdown menu-large">
               <a
@@ -267,9 +267,9 @@ const Header = ({ siteTitle }) => (
               </div>
             </div>
             <div className="nav-item">
-              <a href="blog.html" className="nav-link">
+              <Link to="/blog" className="nav-link">
                 Blog
-              </a>
+              </Link>
             </div>
             <div className="nav-item">
               <a href="#" className="nav-link search-btn">
