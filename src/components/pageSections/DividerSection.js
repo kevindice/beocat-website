@@ -1,7 +1,10 @@
 import React from 'react'
 
 const DividerSection = () => (
-  <section style={{ background: 'url(img/divider-bg.jpg) fixed'}} className="divider has-overlay-darker">
+  <section
+    style={{ background: 'url(img/divider-bg.jpg) fixed' }}
+    className="divider has-overlay-darker"
+  >
     <div className="container">
       <h2>Get an Account</h2>
       <div className="row">
@@ -10,11 +13,14 @@ const DividerSection = () => (
           free of charge.
         </p>
       </div>
-      <div className="CTAs"><a href="#" className="btn btn-primary">
-        Apply now
-      </a><a href="#"
-                                                                                    className="btn btn-outline-light">Learn
-        more</a></div>
+      <div className="CTAs">
+        <a href="#" className="btn btn-primary">
+          Apply now
+        </a>
+        <a href="#" className="btn btn-outline-light">
+          Learn more
+        </a>
+      </div>
     </div>
   </section>
 )

@@ -18,8 +18,17 @@ const IntroSection = () => (
           **Info here about the nature of research for which Beocat is used.**
         </p>
       </div>
-      <div className="signature mx-auto"><img src="img/signature.png" alt="Photo of the Beocat team?" className="img-fluid" /></div>
-      <div className="author"><strong>Beocat Staff</strong><span>subtitle</span></div>
+      <div className="signature mx-auto">
+        <img
+          src="img/signature.png"
+          alt="Photo of the Beocat team?"
+          className="img-fluid"
+        />
+      </div>
+      <div className="author">
+        <strong>Beocat Staff</strong>
+        <span>subtitle</span>
+      </div>
     </div>
   </section>
 )

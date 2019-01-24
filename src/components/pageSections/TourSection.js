@@ -22,15 +22,16 @@ const TourSection = () => (
             </h2>
           </header>
           <p className="h4">
-            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+            molestie consequat
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation
           </p>
-          <a href="#"
-             className="btn btn-primary">Apply
-            now
+          <a href="#" className="btn btn-primary">
+            Apply now
           </a>
         </div>
       </div>
