@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
         <div className="row">
           <div className="col-md-6">
             <p className="mb-0">
-              <i className="icon-placeholder" />Engineering Hall 2221 A/B,
+              <i className="icon-placeholder" />Engineering Hall 2219,
               Kansas State University
             </p>
           </div>

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "education";
-  src:url("../fonts/education.eot");
-  src:url("../fonts/education.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/education.woff") format("woff"),
-    url("../fonts/education.ttf") format("truetype"),
-    url("../fonts/education.svg#education") format("svg");
+  src:url("../../static/fonts/education.eot");
+  src:url("../../static/fonts/education.eot?#iefix") format("embedded-opentype"),
+    url("../../static/fonts/education.woff") format("woff"),
+    url("../../static/fonts/education.ttf") format("truetype"),
+    url("../../static/fonts/education.svg#education") format("svg");
   font-weight: normal;
   font-style: normal;
 

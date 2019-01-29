@@ -12,20 +12,23 @@ import EventsSection from '../components/pageSections/EventsSection'
 import BlogSection from '../components/pageSections/BlogSection'
 import DividerSection from '../components/pageSections/DividerSection'
 import TestimonialsSection from '../components/pageSections/TestimonialsSection'
+import { graphql, StaticQuery } from '../../.cache/gatsby-browser-entry'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
     <HomeHero />
-    <InfoBoxes />
+    {/*<InfoBoxes />*/}
     <IntroSection />
-    <TourSection />
-    <NewsSection />
     <StatisticsSection />
-    <EventsSection />
-    <BlogSection />
     <DividerSection />
+    <TourSection />
+    {/*<NewsSection />*/}
+
+
+    <EventsSection/>
+    {/*<BlogSection />*/}
     <TestimonialsSection />
   </Layout>
 )

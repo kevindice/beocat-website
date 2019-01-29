@@ -5,20 +5,20 @@ const StatisticsSection = () => (
     <div className="container text-center">
       <div className="row">
         <div className="item col-lg-3 col-md-6">
-          <strong>XXXX</strong>
-          <p>Year Founded</p>
+          <strong>15 Years</strong>
+          <p>of HPC Excellence</p>
         </div>
         <div className="item col-lg-3 col-md-6">
-          <strong>XXX Million</strong>
-          <p>CPU Hours Served</p>
+          <strong>35 Million</strong>
+          <p>CPU Hours Served<br />in 2018</p>
         </div>
         <div className="item col-lg-3 col-md-6">
-          <strong>XXX</strong>
+          <strong>350+</strong>
           <p>Active Researchers</p>
         </div>
         <div className="item col-lg-3 col-md-6">
-          <strong>XXX</strong>
-          <p>Research Awards</p>
+          <strong>Free</strong>
+          <p>access to Kansas PI<small>s</small> and their Colaborators</p>
         </div>
       </div>
     </div>

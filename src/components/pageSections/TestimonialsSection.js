@@ -5,8 +5,8 @@ const TestimonialsSection = () => (
     <div className="container text-center">
       <header>
         <h2>
-          <small>Our Students' Feedbacks</small>
-          Student Testimonials
+          <small>User Feedback</small>
+          Researcher Testimonials
         </h2>
       </header>
       <div className="swiper-container testimonials-slider">
