@@ -17,7 +17,7 @@ const DividerSection = () => (
         <a href="#" className="btn btn-primary">
           Apply now
         </a>
-        <a href="#" className="btn btn-outline-light">
+        <a href="https://support.beocat.ksu.edu/" className="btn btn-outline-light">
           Learn more
         </a>
       </div>

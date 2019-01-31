@@ -17,25 +17,25 @@ const Footer = () => (
           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
             atque corrupti quos.</p>
         </div>
-        <div className="col-lg-3">
-          <h4 className="text-thin">Navigation</h4>
-          <div className="d-flex flex-wrap">
-            <ul className="navigation list-unstyled">
-              <li><a href="#">Home </a></li>
-              <li><a href="#">About </a></li>
-              <li><a href="#">Course</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Gallery</a></li>
-            </ul>
-            <ul className="navigation list-unstyled">
-              <li><a href="#">Blog </a></li>
-              <li><a href="#">Teachers </a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+        {/*<div className="col-lg-3">*/}
+          {/*<h4 className="text-thin">Navigation</h4>*/}
+          {/*<div className="d-flex flex-wrap">*/}
+            {/*<ul className="navigation list-unstyled">*/}
+              {/*<li><a href="#">Home </a></li>*/}
+              {/*<li><a href="#">About </a></li>*/}
+              {/*<li><a href="#">Course</a></li>*/}
+              {/*<li><a href="#">Jobs</a></li>*/}
+              {/*<li><a href="#">Gallery</a></li>*/}
+            {/*</ul>*/}
+            {/*<ul className="navigation list-unstyled">*/}
+              {/*<li><a href="#">Blog </a></li>*/}
+              {/*<li><a href="#">Teachers </a></li>*/}
+              {/*<li><a href="#">Privacy</a></li>*/}
+              {/*<li><a href="#">FAQ</a></li>*/}
+              {/*<li><a href="#">Contact</a></li>*/}
+            {/*</ul>*/}
+          {/*</div>*/}
+        {/*</div>*/}
         <div className="col-lg-5 newsletter">
           <h4 className="text-thin">Newsletter</h4>
           <p>At vero eos et accusamus et iusto odio dignissimos ducimus </p>

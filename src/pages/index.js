@@ -3,31 +3,33 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import HomeHero from '../components/pageSections/HomeHero'
-import InfoBoxes from '../components/pageSections/InfoBoxes'
+// import InfoBoxes from '../components/pageSections/InfoBoxes'
 import IntroSection from '../components/pageSections/IntroSection'
-import TourSection from '../components/pageSections/TourSection'
-import NewsSection from '../components/pageSections/NewsSection'
+// import TourSection from '../components/pageSections/TourSection'
+// import NewsSection from '../components/pageSections/NewsSection'
 import StatisticsSection from '../components/pageSections/StatisticsSection'
 import EventsSection from '../components/pageSections/EventsSection'
-import BlogSection from '../components/pageSections/BlogSection'
+// import BlogSection from '../components/pageSections/BlogSection'
 import DividerSection from '../components/pageSections/DividerSection'
 import TestimonialsSection from '../components/pageSections/TestimonialsSection'
-import { graphql, StaticQuery } from '../../.cache/gatsby-browser-entry'
+import TwitterSection from '../components/pageSections/TwitterSection'
+// import { graphql, StaticQuery } from '../../.cache/gatsby-browser-entry'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`beocat`, `hpc`, `scientific computing`]} />
 
     <HomeHero />
     {/*<InfoBoxes />*/}
-    <IntroSection />
     <StatisticsSection />
+    <IntroSection />
     <DividerSection />
-    <TourSection />
+    {/*<TourSection />*/}
     {/*<NewsSection />*/}
 
 
     <EventsSection/>
+      <TwitterSection />
     {/*<BlogSection />*/}
     <TestimonialsSection />
   </Layout>

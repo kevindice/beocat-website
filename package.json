@@ -24,6 +24,7 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-id-swiper": "^1.6.8",
+    "react-twitter-embed": "^2.0.4",
     "reactstrap": "^7.1.0",
     "rrule": "^2.6.0"
   },
