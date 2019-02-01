@@ -1,7 +1,7 @@
 import React from 'react'
-import Swiper from 'react-id-swiper'
+import Swiper from 'react-id-swiper/lib/custom'
 import { Container, Row, Col } from 'reactstrap'
-import 'react-id-swiper/src/styles/scss/swiper.scss'
+// import 'react-id-swiper/src/styles/scss/swiper.scss'
 
 const testimonials = [
   {
@@ -27,6 +27,10 @@ const TestimonialsSection = () => (
         //   nextEl: '.swiper-button-next',
         //   prevEl: '.swiper-button-prev'
         // }}
+        rebuildOnUpdate={true}
+        pagination={{
+          el: '.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic'
+        }}
         containerClass="swiper-container testimonials-slider swiper-container-horizontal"
       >
         {testimonials.map(slide => (
