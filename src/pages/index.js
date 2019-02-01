@@ -22,7 +22,7 @@ const IndexPage = () => (
     <HomeHero />
     {/*<InfoBoxes />*/}
     <StatisticsSection />
-    <IntroSection />
+    {/*<IntroSection />*/}
     <DividerSection />
     {/*<TourSection />*/}
     {/*<NewsSection />*/}
@@ -30,7 +30,7 @@ const IndexPage = () => (
     <EventsSection />
     <TwitterSection />
     {/*<BlogSection />*/}
-    <TestimonialsSection />
+    {/*<TestimonialsSection />*/}
   </Layout>
 )
 

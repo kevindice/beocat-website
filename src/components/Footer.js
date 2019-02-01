@@ -33,8 +33,8 @@ const Footer = () => (
             </li>
           </ul>
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos.
+            Beocat is a High-Performance Computing (HPC) cluster at Kansas State
+            University run by the Institute for Computational Research.
           </p>
         </div>
         <div className="col-lg-3">

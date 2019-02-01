@@ -23,9 +23,14 @@ const HomeHero = () => (
               <br />
               At Scale
             </h1>
-            <p className="hero-text pr-5">Beocat</p>
-            <p>
-              Access is free to all Kansas reseachers and their collaborators.
+            <p className="hero-text pr-5">
+              Beocat is a High-Performance Computing (HPC) cluster at Kansas State
+              University run by the Institute for Computational Research.
+            </p>
+            <p className="hero-text pr-5">
+              Access is available to any educational researcher in the state of Kansas
+              (and their colaborators) without cost.  Priority access is given to those
+              researchers who have contributed resources.
             </p>
             <div className="CTAs">
               <a
