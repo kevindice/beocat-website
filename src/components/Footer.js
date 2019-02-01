@@ -52,21 +52,21 @@ const Footer = () => (
               </li>
             </ul>
             {/*<ul className="navigation list-unstyled">*/}
-              {/*<li>*/}
-                {/*<a href="#">Blog </a>*/}
-              {/*</li>*/}
-              {/*<li>*/}
-                {/*<a href="#">Teachers </a>*/}
-              {/*</li>*/}
-              {/*<li>*/}
-                {/*<a href="#">Privacy</a>*/}
-              {/*</li>*/}
-              {/*<li>*/}
-                {/*<a href="#">FAQ</a>*/}
-              {/*</li>*/}
-              {/*<li>*/}
-                {/*<a href="#">Contact</a>*/}
-              {/*</li>*/}
+            {/*<li>*/}
+            {/*<a href="#">Blog </a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*<a href="#">Teachers </a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*<a href="#">Privacy</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*<a href="#">FAQ</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*<a href="#">Contact</a>*/}
+            {/*</li>*/}
             {/*</ul>*/}
           </div>
         </div>
