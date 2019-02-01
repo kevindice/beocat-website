@@ -9,8 +9,6 @@ const BlogPage = () => (
     <SEO title="Blog" keywords={[]} />
 
     <GenericHero title="Blog" />
-
-
   </Layout>
 )
 

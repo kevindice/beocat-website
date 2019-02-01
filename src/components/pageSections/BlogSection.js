@@ -37,7 +37,8 @@ const BlogSection = () => (
                   <i className="icon-clock-1" /> 14 August 2017
                 </li>
                 <li className="list-inline-item">
-                  <i className="icon-chat" />340
+                  <i className="icon-chat" />
+                  340
                 </li>
               </ul>
               <p>
@@ -74,7 +75,8 @@ const BlogSection = () => (
                   <i className="icon-clock-1" /> 14 August 2017
                 </li>
                 <li className="list-inline-item">
-                  <i className="icon-chat" />340
+                  <i className="icon-chat" />
+                  340
                 </li>
               </ul>
               <p>
@@ -111,7 +113,8 @@ const BlogSection = () => (
                   <i className="icon-clock-1" /> 14 August 2017
                 </li>
                 <li className="list-inline-item">
-                  <i className="icon-chat" />340
+                  <i className="icon-chat" />
+                  340
                 </li>
               </ul>
               <p>

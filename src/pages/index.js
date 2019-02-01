@@ -27,9 +27,8 @@ const IndexPage = () => (
     {/*<TourSection />*/}
     {/*<NewsSection />*/}
 
-
-    <EventsSection/>
-      <TwitterSection />
+    <EventsSection />
+    <TwitterSection />
     {/*<BlogSection />*/}
     <TestimonialsSection />
   </Layout>

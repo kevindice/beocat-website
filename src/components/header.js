@@ -10,15 +10,16 @@ const Header = ({ siteTitle }) => (
         <div className="row">
           <div className="col-md-6">
             <p className="mb-0">
-              <i className="icon-placeholder" />Engineering Hall 2219,
-              Kansas State University
+              <i className="icon-placeholder" />
+              Engineering Hall 2219, Kansas State University
             </p>
           </div>
           <div className="col-md-6 text-right">
             <ul className="list-inline mb-0">
               <li className="list-inline-item">
                 <a href="mailto:info@university.com">
-                  <i className="icon-envelope" />beocat@cs.ksu.edu
+                  <i className="icon-envelope" />
+                  beocat@cs.ksu.edu
                 </a>
               </li>
               {/*<li className="list-inline-item"><a href="#"><i className="icon-telephone"></i>123-456-789</a></li>*/}

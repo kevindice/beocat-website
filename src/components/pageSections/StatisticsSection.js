@@ -10,7 +10,11 @@ const StatisticsSection = () => (
         </div>
         <div className="item col-lg-3 col-md-6">
           <strong>35 Million</strong>
-          <p>CPU Hours Served<br />in 2018</p>
+          <p>
+            CPU Hours Served
+            <br />
+            in 2018
+          </p>
         </div>
         <div className="item col-lg-3 col-md-6">
           <strong>350+</strong>
@@ -18,7 +22,9 @@ const StatisticsSection = () => (
         </div>
         <div className="item col-lg-3 col-md-6">
           <strong>Free</strong>
-          <p>access to Kansas PI<small>s</small> and their Colaborators</p>
+          <p>
+            access to Kansas PI<small>s</small> and their Colaborators
+          </p>
         </div>
       </div>
     </div>

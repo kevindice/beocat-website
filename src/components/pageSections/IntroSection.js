@@ -12,7 +12,8 @@ const IntroSection = () => (
       <div className="row">
         <p className="col-lg-8 mx-auto">
           The Beocat compute cluster supplies over 350 Kansas State University
-          researchers with more than 35 million hours of computing power per year.
+          researchers with more than 35 million hours of computing power per
+          year.
         </p>
         <p className="col-lg-8 mx-auto">
           **Info here about the nature of research for which Beocat is used.**
