@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
-import SEO from '../components/seo'
+import SEO from '../components/SEO'
 import HomeHero from '../components/pageSections/HomeHero'
 // import InfoBoxes from '../components/pageSections/InfoBoxes'
 import IntroSection from '../components/pageSections/IntroSection'
