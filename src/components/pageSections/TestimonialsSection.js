@@ -62,15 +62,15 @@ class TestimonialsSection extends React.Component {
             rebuildOnUpdate={true}
             shouldSwiperUpdate={true}
             pagination={{
-              el: '.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic'
+              el:
+                '.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic',
             }}
             navigation={{
               nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev'
+              prevEl: '.swiper-button-prev',
             }}
             containerClass="swiper-container testimonials-slider swiper-container-horizontal"
           >
-
             {testimonials.map(slide => (
               <div className="swiper-slide">
                 <div className="testimonial">
@@ -79,7 +79,11 @@ class TestimonialsSection extends React.Component {
                   </Row>
                   <div className="user d-flex align-items-center justify-content-center">
                     <div className="avatar">
-                      <img src={slide.img} alt={slide.name} className="img-fluid" />
+                      <img
+                        src={slide.img}
+                        alt={slide.name}
+                        className="img-fluid"
+                      />
                     </div>
                     <div className="title">
                       <strong className="text-uppsercase">{slide.name}</strong>
@@ -89,7 +93,6 @@ class TestimonialsSection extends React.Component {
                 </div>
               </div>
             ))}
-
           </Swiper>
         </Container>
       </section>

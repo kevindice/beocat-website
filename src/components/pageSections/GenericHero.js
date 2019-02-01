@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const GenericHero = ({ title, children }) => (
   <section className="hero hero-page">
@@ -10,7 +11,7 @@ const GenericHero = ({ title, children }) => (
       <nav aria-label="breadcrumb" role="navigation">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <a href="index.html">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li aria-current="page" className="breadcrumb-item active">
             {title}

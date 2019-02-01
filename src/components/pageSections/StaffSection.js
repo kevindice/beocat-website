@@ -1,10 +1,40 @@
 import React from 'react'
+import { Container, Row, Col } from 'reactstrap'
+
+const staff = [
+  {
+    name: 'Dan Andresen',
+    title: (
+      <>
+        Professor, Computer Science
+        <br />
+        Director, Institute for Computational Research in Engineering and
+        Science
+      </>
+    ),
+    img: 'img/dan.jpg',
+  },
+]
 
 const StaffSection = () => (
   <section className="staff bg-gray">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-4">
+    <Container>
+      <Row>
+        {staff.map(dude => (
+          <Col lg={4}>
+            <div className="staff-member">
+              <img src={dude.img} alt={dude.name} />
+              <div className="info">
+                <h3 className="h5 teacher mb-0">{dude.name}</h3>
+                <span>{dude.title}</span>
+              </div>
+              <div className="overlay d-flex align-items-center justify-content-center">
+                <div className="overlay-inner" />
+              </div>
+            </div>
+          </Col>
+        ))}
+        <Col lg={4}>
           <div className="staff-member">
             <img src="img/teacher-1.jpg" alt="Joe Denver" />
             <div className="info">
@@ -49,7 +79,7 @@ const StaffSection = () => (
               </div>
             </div>
           </div>
-        </div>
+        </Col>
         <div className="col-lg-4">
           <div className="staff-member">
             <img src="img/teacher-2.jpg" alt="Richard Ford" />
@@ -140,7 +170,7 @@ const StaffSection = () => (
             </div>
           </div>
         </div>
-      </div>
+      </Row>
       <div className="row">
         <div className="col-lg-3">
           <div className="staff-member">
@@ -311,7 +341,7 @@ const StaffSection = () => (
       {/*aria-hidden="true">»</span><span className="sr-only">Next</span></a></li>*/}
       {/*</ul>*/}
       {/*</nav>*/}
-    </div>
+    </Container>
   </section>
 )
 
