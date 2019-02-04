@@ -1,5 +1,5 @@
 import React from 'react'
-import Swiper from 'react-id-swiper'
+// import Swiper from 'react-id-swiper'
 import { Container, Row, Col } from 'reactstrap'
 import 'react-id-swiper/src/styles/scss/swiper.scss'
 import './hero-backgrounds.css'

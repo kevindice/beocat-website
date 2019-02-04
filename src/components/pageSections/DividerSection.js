@@ -14,7 +14,7 @@ const DividerSection = () => (
         </p>
       </div>
       <div className="CTAs">
-        <a href="#" className="btn btn-primary">
+        <a href="https://accounts.beocat.ksu.edu/" className="btn btn-primary">
           Apply now
         </a>
         <a

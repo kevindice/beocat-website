@@ -15,7 +15,7 @@ const Footer = () => (
               {/*<a href="#" target="_blank">*/}
               {/*<i className="fa fa-facebook" />*/}
               {/*</a>*/}
-              <a href="https://twitter.com/KSUBeocat" target="_blank">
+              <a href="https://twitter.com/KSUBeocat" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-twitter" />
               </a>
               {/*<a href="#" target="_blank">*/}
@@ -24,6 +24,7 @@ const Footer = () => (
               <a
                 href="https://www.youtube.com/channel/UCfRY7ZCiAf-EzEqJXEXcPrw"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-youtube-play" />
               </a>
