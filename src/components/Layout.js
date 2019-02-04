@@ -5,8 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './Header'
 import Footer from './Footer'
 
-import 'bootstrap/scss/bootstrap.scss'
-import 'font-awesome/scss/font-awesome.scss'
 import '../css/font.css'
 import '../scss/style.violet.scss'
 
